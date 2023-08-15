@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="main">
+        <form action="post" id="Form">
+            <h1>Add a new Book</h1>
+            <div class="bookname">
+                <label for="bookname">Name of The Book: </label>
+                <input type="text" id="bookname" name="bookname" placeholder="The Hobbit" required>
+            </div>
+            <div class="author">
+                <label for="author">Name of The Author: </label>
+                <input type="text" id="author" name="author" placeholder="J.R.R Tolkien" required>
+            </div>
+            <div class="pagecount">
+                <label for="pagecount">Number of pages: </label>
+                <input type="text" id="pagecount" name="pagecount" placeholder="467" required>
+            </div>
+            <div class="status">
+                <p>Have you read it?</p> 
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="status" value="Read" required>
+                <label for="no">No</label>
+                <input type="radio" id="no" name="status" value="Unread">  
+            </div>
+            <div class="buttons">
+                <button type="button" id="submit">Add to Library</button>
+                <button id="Cancel">Cancel</button>
+            </div>
+        </form>
+        <div class="nav">
+            <h1>Library</h1>
+            <button id="Add">+</button>
+        </div>
+        <div class="books">
+            
+        </div>
+        <div class="footer">
+            Project made by Hotel-p under the The Odin Project
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
