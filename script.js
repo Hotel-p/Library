@@ -36,11 +36,11 @@ submitBtn.addEventListener('click', ()=>{
     const newBookName = document.createElement("div")
     newBookName.classList.add("Title");
     newBookName.innerHTML = `${newBook.bookName}`;
-    const newBookAuthor = document.createElement("p")
+    const newBookAuthor = document.createElement("div")
     newBookAuthor.innerHTML = `Author: ${newBook.author}`;
-    const newBookPage = document.createElement("p")
-    newBookPage.innerHTML = `Page Count: ${newBook.pageCount}`;
-    const newBookStatus = document.createElement("p")
+    const newBookPage = document.createElement("div")
+    newBookPage.innerHTML = `Pages: ${newBook.pageCount}`;
+    const newBookStatus = document.createElement("div")
     newBookStatus.innerHTML = `Status: ${newBook.status}`;
     
     const newBookUpdate = document.createElement("div")
